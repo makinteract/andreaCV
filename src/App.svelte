@@ -11,6 +11,7 @@
   import Patents from './Patents.svelte';
   import Services from './Services.md';
   import Projects from './Projects.svelte';
+  import PageBreak from './PageBreak.svelte';
 </script>
 
 <div id="page-wrap">
@@ -22,6 +23,8 @@
     <Space />
     <Education />
     <Space />
+    <PageBreak />
+
     <Awards />
     <Space />
     <Teaching />
@@ -30,10 +33,14 @@
     <Space />
     <Patents />
     <Space />
+    <PageBreak />
+
     <Services />
     <Space />
     <Exhibitions />
     <Space />
+
+    <PageBreak />
     <Projects />
     <Space />
   </dl>

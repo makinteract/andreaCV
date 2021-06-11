@@ -39,7 +39,7 @@
     <h4>{project.Title} [{project.PrjNumber}]</h4>
 
     <div class="patentDetail">
-      Funding Agency: {project.FundingAgency}
+      Role: <b>{project.Role}</b> | Funding Agency: {project.FundingAgency}
       {project.Start} - {project.End} |
       {project.Amount}₩
     </div>
