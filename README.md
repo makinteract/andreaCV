@@ -9,7 +9,7 @@ One page CV in svelte
 npm run dev
 
 # build
-npm run buil
+npm run build
 
 # deploy
 npm run deploy
