@@ -9,6 +9,7 @@
 - _IEEE TOH_ 2021/20 guest editor
 - _Korea HCI_ 2021 Digital Fabrication Panel Organizer
 - _UIST_ 2020
+- _MIMSVAI_ 2021 Workshop (Multiple Input Modalities and Sensations for VR/AR Interactions)
 - _DIS_ 2020/18
 - _SIGGRAPH_ E-Tech 2019
 - _TEI_ 2018/16
@@ -18,8 +19,8 @@
 
 ### Conference chair/organizer
 
-- _TEI_ 2022 Late-breakign works co-chair
-- _MobileHCI_ 2021 Late-breakign works co-chair
+- _TEI_ 2022 Late-breaking works co-chair
+- _MobileHCI_ 2021 Late-breaking works co-chair
 - _Korea HCI_ 2021 International Chair
 - _TEI_ 2020 Student design challenge co-chair
 - _MobileHCI_ 2019 Web chair
