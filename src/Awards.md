@@ -1,4 +1,4 @@
-<dt><i>Services</i> 🥇</dt>
+<dt><i>Awards</i> 🥇</dt>
 <dd>
 - KAIST 2020 Technology Innovation Award **공과대학 2020 기술혁신 우수상**
 - **Excellence Teaching Award** Fall 2017 Industrial Design, KAIST
