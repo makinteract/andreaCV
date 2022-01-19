@@ -1,5 +1,6 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
+- **Bridging between Realities** Invited talk as part of the panel discussion "The Future Trends in VR/AR Interactions" at MIMSVAI 2021 _(26 September 2021)_.
 - **Tips on writing HCI papers** Invited talk at ACM SIGCHI Korea Local Chapter (Workshop at HCI Korea 2020), KAIST, Korea _(20 August 2020)_.
 - **Sketching with Hardware** Invited talk at the Design 3.0 Forum, KAIST, Korea _(November 15 2019)_.
 - **Designing for the body** Invited seminar Center for the Center for Anthropocene Studies (13th colloquium), KAIST, Korea _(November 7 2019)_.
