@@ -5,6 +5,7 @@
 - **Best Paper Award** UIST 2020
 - **Best Paper Award** TEI 2021
 - **Best Paper Award** MobileHCI 2013
+- **Best Paper Award** HCI Korea 2022
 - **Best Paper Award** HCI Korea 2018
 - **Best Paper Award** HCI Korea 2015
 - **Honorable Mention Award** CHI 2021
