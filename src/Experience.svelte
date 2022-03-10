@@ -18,7 +18,7 @@
       <h2 class="institution">KAIST Human-Robot Interaction Center</h2>
       <div class="detail">Daejeon, Korea 🇰🇷</div>
       <div class="description">
-        Adjuncted professor<span class="side"
+        Adjunct professor<span class="side"
           >03/2022 - present</span>
       </div>
     </li>
