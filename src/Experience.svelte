@@ -15,6 +15,15 @@
     </li>
 
     <li class="mt">
+      <h2 class="institution">KAIST Human-Robot Interaction Center</h2>
+      <div class="detail">Daejeon, Korea 🇰🇷</div>
+      <div class="description">
+        Adjuncted professor<span class="side"
+          >03/2022 - present</span>
+      </div>
+    </li>
+
+    <li class="mt">
       <h2 class="institution">Sungkyunkwan University</h2>
       <div class="detail">Department of Computer Science</div>
       <div class="detail">Suwon, Korea 🇰🇷</div>

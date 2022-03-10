@@ -1,10 +1,24 @@
 <img src="assets/images/Andrea_round.png" alt="Photo of Andrea" id="pic" />
 
+<style>
+  .affiliation{
+    margin-left: 1em;
+  }
+  .mt{
+    margin-top: 1em
+  }
+  .mb{
+    margin-bottom: 1em
+  }
+</style>
+
 <div id="contact-info" class="vcard">
   <h1 class="fn">Andrea Bianchi</h1>
   <h3>Associate Professor (tenured)</h3>
-  <p>Department of Industrial Design, KAIST</p>
-  <p>
+  <p class="affiliation">Department of Industrial Design, KAIST</p>
+  <h3>Adjunct Professor</h3>
+  <p class="affiliation">Human-Robot Interaction Center, KAIST</p>
+  <p class="mt mb">
     ✉️ Email: <a class="email" href="mailto:andrea@kaist.ac.kr"
       >andrea@kaist.ac.kr</a
     ><br />
