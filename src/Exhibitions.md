@@ -1,6 +1,8 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
-- **Sketching with Hardware** Invited talk at the Interactions Lab (iLab), University of Calgary _(Host: Ryo Suzuki, 9 February 2022)_.
+- **Sketching with Hardware** Invited seminar talk in the Design Department at UNIST (Korea) _(Host: Ian Oakley, 30 March 2022)_.
+- **Sketching with Hardware** Invited seminar talk at National Taiwan University _(Host: Lung-Pan Cheng, 11 March 2022)_.
+- **Sketching with Hardware** Invited seminar talk at the Interactions Lab (iLab), University of Calgary _(Host: Ryo Suzuki, 9 February 2022)_.
 - **Bridging between Realities** Invited talk as part of the panel discussion "The Future Trends in VR/AR Interactions" at MIMSVAI 2021 _(26 September 2021)_.
 - **Tips on writing HCI papers** Invited talk at ACM SIGCHI Korea Local Chapter (Workshop at HCI Korea 2020), KAIST, Korea _(20 August 2020)_.
 - **Sketching with Hardware** Invited talk at the Design 3.0 Forum, KAIST, Korea _(November 15 2019)_.
