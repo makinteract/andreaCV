@@ -3,6 +3,7 @@
 </dt>
   
 <dd>
+
 ### Program committee and editor
 
 - _CHI_ 2022/21/19/18/16/15
@@ -19,6 +20,7 @@
 
 ### Conference chair/organizer
 
+- _SIGCHI Korea Local Chapter_ Vice-chair (4/2022 - 3/2023)
 - _TEI_ 2022 Late-breaking works co-chair
 - _MobileHCI_ 2021 Late-breaking works co-chair
 - _Korea HCI_ 2021 International Chair
