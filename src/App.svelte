@@ -40,9 +40,9 @@
     <Exhibitions />
     <Space />
 
-    <PageBreak />
+    <!-- <PageBreak />
     <Projects />
-    <Space />
+    <Space /> -->
   </dl>
   <Footer />
 </div>

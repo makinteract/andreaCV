@@ -7,7 +7,7 @@
 ### Program committee and editor
 
 - _CHI_ 2022/21/19/18/16/15
-- _IEEE TOH_ 2021/20 guest editor
+- _IEEE Transactions on Haptics_ 2021/20 guest editor
 - _Korea HCI_ 2021 Digital Fabrication Panel Organizer
 - _UIST_ 2020
 - _MIMSVAI_ 2021 Workshop (Multiple Input Modalities and Sensations for VR/AR Interactions)
@@ -21,6 +21,7 @@
 ### Conference chair/organizer
 
 - _SIGCHI Korea Local Chapter_ Vice-chair (4/2022 - 3/2023)
+- _TEI_ 2023 Graduate Student Consortium (GSC) co-chair
 - _TEI_ 2022 Late-breaking works co-chair
 - _MobileHCI_ 2021 Late-breaking works co-chair
 - _Korea HCI_ 2021 International Chair
