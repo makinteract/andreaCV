@@ -20,7 +20,7 @@
 
 ### Conference chair/organizer
 
-- _SIGCHI Korea Local Chapter_ Vice-chair (4/2022 - 3/2023)
+- _SIGCHI Korea Local Chapter_ Vice-chair (1/4/2022 - 31/3/2023)
 - _TEI_ 2023 Graduate Student Consortium (GSC) co-chair
 - _TEI_ 2022 Late-breaking works co-chair
 - _MobileHCI_ 2021 Late-breaking works co-chair
