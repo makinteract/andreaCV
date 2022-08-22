@@ -28,9 +28,9 @@
 <dt><i>Highlights</i> ⭐️</dt>
 <dd>
 
-- Research in the field of _Human-Computer Interaction (HCI)_: <div class="indent">Metaverse / Haptics / VR-AR / Physical computing</div>
+- Research in the field of _Human-Computer Interaction (HCI)_: <div class="indent">**Metaverse** / **Haptics** / **VR-AR** / **Physical computing**</div>
 - Citations: **{citations}** H-index: **{h_index}**
-- Conference papers: **{inproc}** Journal papers: **{article}**
+- **{inproc}** international conference and **{article}** journal papers
 - **Best Paper Awards** UIST 2020, TEI 2021, MobileHCI 2013
 - **Honorable Mention Awards** CHI 2021-2022, MobileHCI 2016-2017
 - KAIST 2020 Technology Innovation Award **공과대학 2020 기술혁신 우수상**

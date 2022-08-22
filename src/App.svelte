@@ -30,6 +30,7 @@
     <Awards />
     <Space />
     <Teaching />
+    <Space />
     <PageBreak />
 
     <Publications />
