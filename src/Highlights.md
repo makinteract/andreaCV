@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   // get Google scholar info for citations and h_inedx
-  let citations ='N/A', h_index= 'N/A';
+  let citations ='1308', h_index= '20';
   let inproc = 0;
   let article = 0;
 

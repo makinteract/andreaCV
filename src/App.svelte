@@ -25,19 +25,21 @@
 
     <Experience />
     <Space />
+    <PageBreak />
+
     <Education />
     <Space />
     <Awards />
     <Space />
     <Teaching />
     <Space />
-    <PageBreak />
+    <!-- <PageBreak /> -->
 
     <Publications />
     <Space />
     <Patents />
     <Space />
-    <!-- <PageBreak /> -->
+    <PageBreak />
 
     <Services />
     <Space />
