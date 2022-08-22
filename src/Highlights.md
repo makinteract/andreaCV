@@ -37,9 +37,9 @@
 </dd>
 
 <style>
-  /* strong{
+  dt{
     color: #FF0070;
-  } */
+  }
   .indent{
     margin-left: 2em;
   }

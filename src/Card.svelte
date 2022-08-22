@@ -7,8 +7,10 @@
   <h3>Adjunct Professor</h3>
   <p class="affiliation">Human-Robot Interaction Center, KAIST</p>
   <p class="mt mb">
-    ✉️ Email: <a class="email" href="mailto:andrea@kaist.ac.kr"
-      >andrea@kaist.ac.kr</a
+    📑 Live CV:
+    <a class="email" href="https://andrea.kaist.id">andrea.kaist.id</a><br />
+    ✉️ Email:
+    <a class="email" href="mailto:andrea@kaist.ac.kr">andrea@kaist.ac.kr</a
     ><br />
     🏠 Web:
     <a href="https://makinteract.kaist.ac.kr">https://makinteract.kaist.ac.kr</a
@@ -31,4 +33,7 @@
   .mb {
     margin-bottom: 1em;
   }
+  /* img {
+    width: 300px;
+  } */
 </style>

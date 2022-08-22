@@ -18,7 +18,6 @@
 <div id="page-wrap">
   <Card />
   <Space />
-  <Space />
 
   <dl>
     <Highlights />
@@ -28,12 +27,11 @@
     <Space />
     <Education />
     <Space />
-    <PageBreak />
-
     <Awards />
     <Space />
     <Teaching />
-    <Space />
+    <PageBreak />
+
     <Publications />
     <Space />
     <Patents />
