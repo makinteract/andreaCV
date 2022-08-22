@@ -1,17 +1,5 @@
 <img src="assets/images/Andrea_round.png" alt="Photo of Andrea" id="pic" />
 
-<style>
-  .affiliation{
-    margin-left: 1em;
-  }
-  .mt{
-    margin-top: 1em
-  }
-  .mb{
-    margin-bottom: 1em
-  }
-</style>
-
 <div id="contact-info" class="vcard">
   <h1 class="fn">Andrea Bianchi</h1>
   <h3>Associate Professor (tenured)</h3>
@@ -22,7 +10,25 @@
     ✉️ Email: <a class="email" href="mailto:andrea@kaist.ac.kr"
       >andrea@kaist.ac.kr</a
     ><br />
-    📞 Phone: +82 42)350-4526<br/>
-    🌍 Web: <a href="https://makinteract.kaist.ac.kr">https://makinteract.kaist.ac.kr</a>
+    🏠 Web:
+    <a href="https://makinteract.kaist.ac.kr">https://makinteract.kaist.ac.kr</a
+    ><br />
+    📞 Phone: +82 42)350-4526<br />
+    🎓
+    <a href="https://scholar.google.com/citations?user=wVDtZB0AAAAJ&hl=en"
+      >Google Scholar
+    </a>
   </p>
 </div>
+
+<style>
+  .affiliation {
+    margin-left: 1em;
+  }
+  .mt {
+    margin-top: 1em;
+  }
+  .mb {
+    margin-bottom: 1em;
+  }
+</style>

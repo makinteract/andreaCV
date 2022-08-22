@@ -12,13 +12,18 @@
   import Services from './Services.md';
   import Projects from './Projects.svelte';
   import PageBreak from './PageBreak.svelte';
+  import Highlights from './Highlights.md';
 </script>
 
 <div id="page-wrap">
   <Card />
   <Space />
+  <Space />
 
   <dl>
+    <Highlights />
+    <Space />
+
     <Experience />
     <Space />
     <Education />
