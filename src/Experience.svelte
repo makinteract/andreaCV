@@ -3,8 +3,8 @@
 <dd>
   <ul>
     <li>
-      <h2 class="institution">KAIST</h2>
-      <div class="detail">Department of Industrial Design</div>
+      <h2 class="institution">KAIST, Department of Industrial Design</h2>
+      <!-- <div class="detail">Department of Industrial Design</div> -->
       <div class="detail">Daejeon, Korea 🇰🇷</div>
       <div class="description">
         Associate professor<span class="side">09/2019 - present</span>
@@ -15,11 +15,18 @@
     </li>
 
     <li class="mt">
-      <h2 class="institution">KAIST Human-Robot Interaction Center</h2>
+      <h2 class="institution">KAIST, School of Computing</h2>
       <div class="detail">Daejeon, Korea 🇰🇷</div>
       <div class="description">
-        Adjunct professor<span class="side"
-          >03/2022 - present</span>
+        Adjunct professor<span class="side">1/10/2022 - present</span>
+      </div>
+    </li>
+
+    <li class="mt">
+      <h2 class="institution">KAIST, Human-Robot Interaction Center</h2>
+      <div class="detail">Daejeon, Korea 🇰🇷</div>
+      <div class="description">
+        Adjunct professor<span class="side">03/2022 - present</span>
       </div>
     </li>
 

@@ -5,6 +5,7 @@
   <h3>Associate Professor (tenured)</h3>
   <p class="affiliation">Department of Industrial Design, KAIST</p>
   <h3>Adjunct Professor</h3>
+  <p class="affiliation">School of Computing, KAIST</p>
   <p class="affiliation">Human-Robot Interaction Center, KAIST</p>
   <p class="mt mb">
     📑 Live CV:
