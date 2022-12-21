@@ -1,5 +1,6 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
+- **Sketching with Hardware** Invited talk at Microsoft Research (Redmond, WA, USA) _(Host: Michel Pahud, 4 November 2022)_.
 - **Sketching with Hardware** Invited seminar talk in the Design Department at UNIST (Korea) _(Host: Ian Oakley, 30 March 2022)_.
 - **Sketching with Hardware** Invited seminar talk at National Taiwan University _(Host: Lung-Pan Cheng, 11 March 2022)_.
 - **Sketching with Hardware** Invited seminar talk at the Interactions Lab (iLab), University of Calgary _(Host: Ryo Suzuki, 9 February 2022)_.
