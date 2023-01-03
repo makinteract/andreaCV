@@ -46,8 +46,8 @@
     <Exhibitions />
     <Space />
 
-    <!-- <PageBreak />
-    <Projects />
+    <!-- <PageBreak /> -->
+    <!-- <Projects />
     <Space /> -->
   </dl>
   <Footer />

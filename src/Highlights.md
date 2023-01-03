@@ -2,13 +2,13 @@
   import { onMount } from 'svelte';
 
   // get Google scholar info for citations and h_inedx
-  let citations ='1308', h_index= '20';
+  let citations ='1418', h_index= '20';
   let inproc = 0;
   let article = 0;
 
   onMount(() => {
 
-    fetch('http://personal-scholar.herokuapp.com/author/wVDtZB0AAAAJ')
+    fetch('https://personal-scholar.onrender.com/author/wVDtZB0AAAAJ')
     .then((response) => response.json())
     .then((data) => {
       citations= data.citations;
