@@ -28,7 +28,7 @@
 <dt><i>Highlights</i> ⭐️</dt>
 <dd>
 
-- Research in the field of _Human-Computer Interaction (HCI)_: <div class="indent">**Metaverse** / **Haptics** / **VR-AR** / **Physical computing**</div>
+- Research in the field of _Human-Computer Interaction (HCI)_: <div class="indent">**AR-VR** / **Haptics** / **Physical computing**</div>
 - Citations: **{citations}** H-index: **{h_index}**
 - **{inproc}** international conference and **{article}** journal papers
 - **Best Paper Awards** UIST 2020, TEI 2021, MobileHCI 2013
