@@ -6,10 +6,10 @@
 
 ### Program committee and editor
 
-- _CHI_ 2022/21/19/18/16/15
+- _CHI_ 2023/22/21/19/18/16/15
 - _IEEE Transactions on Haptics_ 2021/20 guest editor
 - _Korea HCI_ 2021 Digital Fabrication Panel Organizer
-- _UIST_ 2020
+- _UIST_ 2023/20
 - _MIMSVAI_ 2021 Workshop (Multiple Input Modalities and Sensations for VR/AR Interactions)
 - _DIS_ 2020/18
 - _SIGGRAPH_ E-Tech 2019
