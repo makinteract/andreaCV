@@ -1,5 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
+
+- **Inventive Minds and Ideas: Living in the Future** Invited demos at Dongdaemun Design Plaza (DDP), Seoul, Korea _(17-26 December 2022)_.
 - **Sketching with Hardware** Invited talk at Microsoft Research (Redmond, WA, USA) _(Host: Michel Pahud, 4 November 2022)_.
 - **Sketching with Hardware** Invited seminar talk in the Design Department at UNIST (Korea) _(Host: Ian Oakley, 30 March 2022)_.
 - **Sketching with Hardware** Invited seminar talk at National Taiwan University _(Host: Lung-Pan Cheng, 11 March 2022)_.
