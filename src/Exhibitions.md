@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **When Code Becomes Physical** Invited talk at KAIST (CS493), Daejeon, Korea _(Host: Prof. Sukyoung Ryu , 22 march 2023)_ [[video](https://youtu.be/U54PDYC_d4A)].
 - **Inventive Minds and Ideas: Living in the Future** Invited demos at Dongdaemun Design Plaza (DDP), Seoul, Korea _(17-26 December 2022)_.
 - **Sketching with Hardware** Invited talk at Microsoft Research (Redmond, WA, USA) _(Host: Michel Pahud, 4 November 2022)_.
 - **Sketching with Hardware** Invited seminar talk in the Design Department at UNIST (Korea) _(Host: Ian Oakley, 30 March 2022)_.
