@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **Dagstuhl Seminar 23212 - Designing the Human-Machine Symbiosis** Invited seminar at Schloss Dagstuhl, Germany _(May 22-26 2023)_ [[link](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23212)].
 - **When Code Becomes Physical** Invited talk at KAIST (CS493), Daejeon, Korea _(Host: Prof. Sukyoung Ryu , 22 march 2023)_ [[video](https://youtu.be/U54PDYC_d4A)].
 - **Inventive Minds and Ideas: Living in the Future** Invited demos at Dongdaemun Design Plaza (DDP), Seoul, Korea _(17-26 December 2022)_.
 - **Sketching with Hardware** Invited talk at Microsoft Research (Redmond, WA, USA) _(Host: Michel Pahud, 4 November 2022)_.
@@ -11,7 +12,7 @@
 - **Tips on writing HCI papers** Invited talk at ACM SIGCHI Korea Local Chapter (Workshop at HCI Korea 2020), KAIST, Korea _(20 August 2020)_.
 - **Sketching with Hardware** Invited talk at the Design 3.0 Forum, KAIST, Korea _(November 15 2019)_.
 - **Designing for the body** Invited seminar Center for the Center for Anthropocene Studies (13th colloquium), KAIST, Korea _(November 7 2019)_.
-- **Dagstuhl Seminar 19232 - Ubiquitous Computing Education: Why, What, and How** Invited seminar at Schloss Dagstuhl, Germany _(June 3-7 2019)_.
+- **Dagstuhl Seminar 19232 - Ubiquitous Computing Education: Why, What, and How** Invited seminar at Schloss Dagstuhl, Germany _(June 3-7 2019)_[[link](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/19232)].
 - **Augmenting interactions with wearable and tangible interfaces** Invited talk at the GIST AI Forum 2018, Gwangju, Korea _(13 November 2018)_.
 - **G-ITRC Project Exhibition**, Coex, Seoul _(2018.05)_.
 - **Tips on writing an HCI paper** Invited talk at Winter HCI@KAIST Workshop, KAIST, Korea _(13 February 2018)_.
