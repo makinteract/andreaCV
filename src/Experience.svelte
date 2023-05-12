@@ -44,7 +44,7 @@
       <h2 class="institution">Rebel Monkey Inc.</h2>
       <div class="detail">New York, USA 🇺🇸</div>
       <div class="description">
-        Lead game programmer<span class="side">02/2017 - 12/2017</span>
+        Lead game programmer<span class="side">02/2007 - 12/2007</span>
       </div>
     </li>
   </ul>
