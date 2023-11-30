@@ -15,6 +15,17 @@
     </li>
 
     <li class="mt">
+      <h2 class="institution">
+        University of Sydney, Faculty of Engineering (CS)
+      </h2>
+      <!-- <div class="detail">Department of Industrial Design</div> -->
+      <div class="detail">Sydney, Australia 🇦🇺</div>
+      <div class="description">
+        Visiting Researcher<span class="side">11/2023 - 2/2024</span>
+      </div>
+    </li>
+
+    <li class="mt">
       <h2 class="institution">KAIST, School of Computing</h2>
       <div class="detail">Daejeon, Korea 🇰🇷</div>
       <div class="description">
