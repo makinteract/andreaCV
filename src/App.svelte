@@ -11,6 +11,7 @@
   import Patents from './Patents.svelte';
   import Services from './Services.md';
   import Projects from './Projects.svelte';
+  import PressMedia from './PressMedia.md';
   import PageBreak from './PageBreak.svelte';
   import Highlights from './Highlights.md';
 </script>
@@ -44,6 +45,8 @@
     <Services />
     <Space />
     <Exhibitions />
+    <Space />
+    <PressMedia />
     <Space />
 
     <!-- <PageBreak /> -->
