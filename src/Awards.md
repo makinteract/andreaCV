@@ -15,6 +15,7 @@
 - **Best Poster Award** UIST 2016
 - **iF Design Award 2021** Mobile Clinic Module Control UX/UI
 - **IDSA 2021 Bronze Design Award**
+- KAIST 2023 **Global Research Cooperation Award** Excellence Prize
 - KAIST 2020 Technology Innovation Award **공과대학 2020 기술혁신 우수상**
 - KAIST Breakthroughs **2022 Readers' Choice Award** (16 February 2022, College of Engineering)
 - **Excellence Teaching Award** Fall 2017 Industrial Design, KAIST
