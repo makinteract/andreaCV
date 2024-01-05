@@ -1,7 +1,9 @@
 <script>
   import { onMount } from 'svelte';
 
-  const publications = 'assets/data/publications.bib';
+  // const publications = 'assets/data/publications.bib';
+  const publications =
+    'https://raw.githubusercontent.com/makinteract/andreaCV/main/assets/data/publications.bib';
 
   let inproc = 0;
   let article = 0;
