@@ -1,6 +1,6 @@
-<img src="assets/images/Andrea_round.png" alt="Photo of Andrea" id="pic" />
+<img src="assets/images/Andrea_round.png" alt="Andrea" id="pic" />
 
-<div id="contact-info" class="vcard">
+<div class="vcard">
   <h1 class="fn">Andrea Bianchi</h1>
   <h3>Associate Professor (tenured)</h3>
   <p class="affiliation">Department of Industrial Design, KAIST</p>
@@ -37,4 +37,11 @@
   /* img {
     width: 300px;
   } */
+  .vcard {
+    margin-left: 50px;
+  }
+  #pic {
+    float: right;
+    margin: -30px 0 0 0;
+  }
 </style>
