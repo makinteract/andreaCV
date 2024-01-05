@@ -1,14 +1,16 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **Make Lab Introduction** Invited seminar talk at the Materalising Memories programme in the University of Technology Sydney (UTS), Australia _(Host: Elise van den Hoven, 7 December 2023)_.
+- **Make Lab Introduction** Invited seminar talk at the Aid Lab in the School of Computer Science at The University of Sydney, Australia _(Host: Anusha Withana, 22 November 2023)_.
 - **Embracing Physical Interactions and Hardware in Interactive Systems** Invited talk at the _Kim Dae-jung Peace Forum 2023 (김대중평화회의 2023)_, Shinan-gun C-One resort Jaeundo, Mokpo _(October 4-6 2023)_ [[video](https://www.youtube.com/live/sIsDrWJLlcw?si=yBdE_M-Rw1-eNuTR&t=20789)].
 - **Dagstuhl Seminar 23212 - Designing the Human-Machine Symbiosis** Invited seminar at Schloss Dagstuhl, Germany _(May 22-26 2023)_ [[link](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23212)].
 - **When Code Becomes Physical** Invited talk at KAIST (CS493), Daejeon, Korea _(Host: Prof. Sukyoung Ryu , 22 march 2023)_ [[video](https://youtu.be/U54PDYC_d4A)].
 - **Inventive Minds and Ideas: Living in the Future** Invited demos at Dongdaemun Design Plaza (DDP), Seoul, Korea _(17-26 December 2022)_.
 - **Sketching with Hardware** Invited talk at Microsoft Research (Redmond, WA, USA) _(Host: Michel Pahud, 4 November 2022)_.
-- **Sketching with Hardware** Invited seminar talk in the Design Department at UNIST (Korea) _(Host: Ian Oakley, 30 March 2022)_.
-- **Sketching with Hardware** Invited seminar talk at National Taiwan University _(Host: Lung-Pan Cheng, 11 March 2022)_.
-- **Sketching with Hardware** Invited seminar talk at the Interactions Lab (iLab), University of Calgary _(Host: Ryo Suzuki, 9 February 2022)_.
+- **Sketching with Hardware** Invited seminar talk in the Design Department at UNIST, Korea _(Host: Ian Oakley, 30 March 2022)_.
+- **Sketching with Hardware** Invited seminar talk at National Taiwan University, Taiwan _(Host: Lung-Pan Cheng, 11 March 2022)_.
+- **Sketching with Hardware** Invited seminar talk at the Interactions Lab (iLab), University of Calgary, Canada _(Host: Ryo Suzuki, 9 February 2022)_.
 - **Bridging between Realities** Invited talk as part of the panel discussion "The Future Trends in VR/AR Interactions" at MIMSVAI 2021 _(26 September 2021)_.
 - **Tips on writing HCI papers** Invited talk at ACM SIGCHI Korea Local Chapter (Workshop at HCI Korea 2020), KAIST, Korea _(20 August 2020)_.
 - **Sketching with Hardware** Invited talk at the Design 3.0 Forum, KAIST, Korea _(November 15 2019)_.
