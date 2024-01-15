@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **Make Lab Introduction** Invited seminar talk at the University of Newcastle, Australia _(Host: Karen Blackmore, 15 January 2024)_.
 - **Make Lab Introduction** Invited seminar talk at the Materalising Memories programme in the University of Technology Sydney (UTS), Australia _(Host: Elise van den Hoven, 7 December 2023)_.
 - **Make Lab Introduction** Invited seminar talk at the Aid Lab in the School of Computer Science at The University of Sydney, Australia _(Host: Anusha Withana, 22 November 2023)_.
 - **Embracing Physical Interactions and Hardware in Interactive Systems** Invited talk at the _Kim Dae-jung Peace Forum 2023 (김대중평화회의 2023)_, Shinan-gun C-One resort Jaeundo, Mokpo _(October 4-6 2023)_ [[video](https://www.youtube.com/live/sIsDrWJLlcw?si=yBdE_M-Rw1-eNuTR&t=20789)].
