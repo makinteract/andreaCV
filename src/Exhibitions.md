@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the [SIGCHI Canberral local chapter](https://canberra.hosting.acm.org) at the Australia National University, Canberra, Australia _(Host: Josh Andres, 22 January 2024)_.
 - **Make Lab Introduction** Invited seminar talk at the University of Newcastle, Australia _(Host: Karen Blackmore, 15 January 2024)_.
 - **Make Lab Introduction** Invited seminar talk at the Materalising Memories programme in the University of Technology Sydney (UTS), Australia _(Host: Elise van den Hoven, 7 December 2023)_.
 - **Make Lab Introduction** Invited seminar talk at the Aid Lab in the School of Computer Science at The University of Sydney, Australia _(Host: Anusha Withana, 22 November 2023)_.
