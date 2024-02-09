@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Sydney, Australia _(Host: Anusha Withana, 14 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Queensland, Australia _(Host: Ben Matthews, 8 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the Queensland University of Technology (QUT), Australia _(Host: Bernd Ploderer, 7 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Melbourne, Australia _(Host: Jorge Goncalves, 1 February 2024)_.
