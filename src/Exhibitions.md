@@ -1,13 +1,15 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Queensland, Australia _(Host: Ben Matthews, 8 February 2024)_.
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the Queensland University of Technology (QUT), Australia _(Host: Bernd Ploderer, 7 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Melbourne, Australia _(Host: Jorge Goncalves, 1 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at RMIT, Melbourne, Australia _(Host: Danula Hettiachchi, 31 January 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at Monash University, Melbourne, Australia _(Host: Benjamin Tag, 30 January 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the [SIGCHI Canberral local chapter](https://canberra.hosting.acm.org) at the Australia National University, Canberra, Australia _(Host: Josh Andres, 22 January 2024)_.
 - **Make Lab Introduction** Invited seminar talk at the University of Newcastle, Australia _(Host: Karen Blackmore, 15 January 2024)_.
 - **Make Lab Introduction** Invited seminar talk at the Materalising Memories programme in the University of Technology Sydney (UTS), Australia _(Host: Elise van den Hoven, 7 December 2023)_.
-- **Make Lab Introduction** Invited seminar talk at the Aid Lab in the School of Computer Science at The University of Sydney, Australia _(Host: Anusha Withana, 22 November 2023)_.
+<!-- - **Make Lab Introduction** Invited seminar talk at the Aid Lab in the School of Computer Science at The University of Sydney, Australia _(Host: Anusha Withana, 22 November 2023)_. -->
 - **Embracing Physical Interactions and Hardware in Interactive Systems** Invited talk at the _Kim Dae-jung Peace Forum 2023 (김대중평화회의 2023)_, Shinan-gun C-One resort Jaeundo, Mokpo _(October 4-6 2023)_ [[video](https://www.youtube.com/live/sIsDrWJLlcw?si=yBdE_M-Rw1-eNuTR&t=20789)].
 - **Dagstuhl Seminar 23212 - Designing the Human-Machine Symbiosis** Invited seminar at Schloss Dagstuhl, Germany _(May 22-26 2023)_ [[link](https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/23212)].
 - **When Code Becomes Physical** Invited talk at KAIST (CS493), Daejeon, Korea _(Host: Prof. Sukyoung Ryu , 22 march 2023)_ [[video](https://youtu.be/U54PDYC_d4A)].
