@@ -20,6 +20,8 @@
 
 ### Conference chair/organizer
 
+- _UIST 2024_ Doctoral Symposium Panelist
+- _Korean Society of Design Science (KSDS)_ Board member/이사 (1/1/2024-31/12/2025)
 - _SIGCHI Korea Local Chapter_ Vice chair (1/4/2022 - 31/7/2023)
 - _TEI_ 2023 Graduate Student Consortium (GSC) co-chair
 - _TEI_ 2022 Late-breaking works co-chair
