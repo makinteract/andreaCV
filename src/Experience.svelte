@@ -26,6 +26,15 @@
     </li>
 
     <li class="mt">
+      <h2 class="institution">University of Tokyo</h2>
+      <div class="detail">Tokyo, Japan 🇯🇵</div>
+      <div class="description">
+        JSPS Fellow for Research in Japan <span class="side"
+          >1/4/2024 - 5/6/2024</span>
+      </div>
+    </li>
+
+    <li class="mt">
       <h2 class="institution">KAIST, School of Computing</h2>
       <div class="detail">Daejeon, Korea 🇰🇷</div>
       <div class="description">
