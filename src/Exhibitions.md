@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **"If All You Have is a Hammer" - Lab Introduction** Invited seminar talk at Keio University Media Design lab, Tokyo, Japan _(Host: Kouta Minamizawa, 16 April 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Sydney, Australia _(Host: Anusha Withana, 14 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the University of Queensland, Australia _(Host: Ben Matthews, 8 February 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited seminar talk at the Queensland University of Technology (QUT), Australia _(Host: Bernd Ploderer, 7 February 2024)_.
@@ -52,6 +53,3 @@
   }
 
 </style>
-
-<!-- Removed -->
-<!-- - **Make Lab Introduction** Invited seminar talk at the Aid Lab in the School of Computer Science at The University of Sydney, Australia _(Host: Anusha Withana, 22 November 2023)_. -->
