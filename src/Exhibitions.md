@@ -1,8 +1,10 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the Polytechnic University of Torino, Italy _(Host: Luigi De Russis, 14 June 2024)_.
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the Polytechnic University of Milan, Italy _(Host: Maristella Matera and Salvatore Andolina, 12 June 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the XLAB in the University of Tokyo, Japan _(Host: Yasuaki Kakehi, 31 May 2024)_.
-- - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the Lifestyle Computing Lab, Keio University, Yokohama, Japan _(Host: Yuta Sugiura, 30 May 2024)_.
+- **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the Lifestyle Computing Lab, Keio University, Yokohama, Japan _(Host: Yuta Sugiura, 30 May 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited online lecture in the Department of Industrial Design at National Cheng Kung University (NCKU), Tainan, Taiwan _(Host: Chien-Hsu Chen, 23 May 2024)_.
 - **"If All You Have is a Hammer" - Lab work** Invited lecture at The Universtity of Tokyo, Tokyo, Japan _(Host: Masahiko Inami, 23 April 2024)_.
 - **"If All You Have is a Hammer" - Lab Introduction** Invited seminar talk at Keio University Media Design lab, Tokyo, Japan _(Host: Kouta Minamizawa, 16 April 2024)_.
