@@ -16,7 +16,7 @@
 
     <li class="mt">
       <h2 class="institution">
-        University of Sydney, Faculty of Engineering (CS)
+        The University of Sydney, Faculty of Engineering (CS)
       </h2>
       <!-- <div class="detail">Department of Industrial Design</div> -->
       <div class="detail">Sydney, Australia 🇦🇺</div>
@@ -26,7 +26,7 @@
     </li>
 
     <li class="mt">
-      <h2 class="institution">University of Tokyo</h2>
+      <h2 class="institution">The University of Tokyo</h2>
       <div class="detail">Tokyo, Japan 🇯🇵</div>
       <div class="description">
         JSPS Fellow for Research in Japan <span class="side"
