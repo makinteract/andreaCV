@@ -1,6 +1,7 @@
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **Software Might Have Eaten the World, but Hardware Shape it** Invited talk at 2024 [KSDS Fall International Conference](https://design-science.or.kr/conference/2024f/notice/article/312) _(2 November 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the Polytechnic University of Torino, Italy _(Host: Luigi De Russis, 14 June 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the Polytechnic University of Milan, Italy _(Host: Maristella Matera and Salvatore Andolina, 12 June 2024)_.
 - **"If All You Have is a Hammer" - Designing Digitally Augmented Physical Tools** Invited talk at the XLAB in the University of Tokyo, Japan _(Host: Yasuaki Kakehi, 31 May 2024)_.
