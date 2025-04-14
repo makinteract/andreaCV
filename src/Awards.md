@@ -7,6 +7,7 @@
 - **Best Paper Award** HCI Korea 2022
 - **Best Paper Award** HCI Korea 2018
 - **Best Paper Award** HCI Korea 2015
+- **Honorable Mention Award** CHI 2025
 - **Honorable Mention Award** EICS 2024
 - **Honorable Mention Award** CHI 2024
 - **Honorable Mention Award** CHI 2022
