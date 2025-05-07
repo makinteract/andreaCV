@@ -26,7 +26,7 @@
 
     <Experience />
     <Space />
-    <PageBreak />
+    <!-- <PageBreak /> -->
 
     <Education />
     <Space />

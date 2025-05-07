@@ -10,8 +10,20 @@
         <span class="side">Spring 2016 - present</span>
       </div>
       <div class="description">
+        <em>ID49902</em>: Designing Interaction with AI (special topic)
+        <span class="side">Fall 2025</span>
+      </div>
+      <div class="description">
+        <em>ID50002</em>: Research Methodology (graduate)
+        <span class="side">Fall 2025</span>
+      </div>
+      <div class="description">
+        <em>CS492F</em>: AI Prototyping (special topic)
+        <span class="side">Fall 2024</span>
+      </div>
+      <div class="description">
         <em>ID220</em>: Interaction Prototyping
-        <span class="side">Fall 2018 - present</span>
+        <span class="side">Fall 2018 - 2022</span>
       </div>
       <div class="description">
         <em>ID307</em>: Interface Design
@@ -24,7 +36,8 @@
       <div class="detail">Department of Computer Science</div>
       <div class="description">
         <em>ECE5947</em>: HCI Design (graduate)<span class="side"
-          >Spring 2014</span>
+          >Spring 2014</span
+        >
       </div>
       <div class="description">
         <em>CSE3040</em>: Human Computer Interaction
