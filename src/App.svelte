@@ -6,7 +6,7 @@
   import Awards from './Awards.md';
   import Publications from './Publications.svelte';
   import Teaching from './Teaching.svelte';
-  import Exhibitions from './Exhibitions.md';
+  import TalksExhibitions from './TalksExhibitions.svelte';
   import Footer from './Footer.svelte';
   import Patents from './Patents.svelte';
   import Services from './Services.md';
@@ -44,7 +44,7 @@
 
     <Services />
     <Space />
-    <Exhibitions />
+    <TalksExhibitions />
     <Space />
     <PressMedia />
     <Space />
