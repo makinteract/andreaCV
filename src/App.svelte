@@ -6,7 +6,7 @@
   import Awards from './Awards.md';
   import Publications from './Publications.svelte';
   import Teaching from './Teaching.svelte';
-  import TalksExhibitions from './TalksExhibitions.svelte';
+  import TalksExhibitions from './TalksExhibitions.md';
   import Footer from './Footer.svelte';
   import Patents from './Patents.svelte';
   import Services from './Services.md';
