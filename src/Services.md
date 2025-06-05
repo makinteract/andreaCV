@@ -8,6 +8,7 @@
 
 - _UIST 2025_ Program Co-Chair
 - _CHI 2025_ Subcommitte chair (_Blending Interaction: Engineering Interactive Systems & Tools_)
+- _IEEE World Haptics 2025_ Demo Co-Chair
 - _CHI_ 2024/23/22/21/19/18/16/15
 - _UIST_ 2023/20
 - _DIS_ 2020/18
