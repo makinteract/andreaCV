@@ -1,0 +1,51 @@
+- institution: KAIST
+  location: Daejeon, Korea 🇰🇷
+  department: Department of Industrial Design
+  courses:
+    - code: ID311/ID430
+      title: Software Prototyping
+      period: Spring 2016 - present
+    - code: ID499
+      title: Designing Interaction with Hardware (special topic)
+      period: Spring 2026
+    - code: ID499
+      title: Designing Interaction with AI (special topic)
+      period: Fall 2025
+    - code: ID50002
+      title: Research Methodology (graduate)
+      period: Fall 2025
+    - code: CS492F
+      title: AI Prototyping (special topic)
+      period: Fall 2024
+    - code: ID220
+      title: Interaction Prototyping
+      period: Fall 2018 - 2022
+    - code: ID307
+      title: Interface Design
+      period: Spring 2016, 2017
+
+- institution: Sungkyunkwan University
+  location: Suwon, Korea 🇰🇷
+  department: Department of Computer Science
+  courses:
+    - code: ECE5947
+      title: HCI Design (graduate)
+      period: Spring 2014
+    - code: CSE3040
+      title: Human Computer Interaction
+      period: Spring 2014, 2015
+    - code: ERC2006
+      title: Creative Design
+      period: Fall 2013
+    - code: GEDB029
+      title: Introduction to Programming
+      period: Fall 2013-14, Spring 2014-15
+    - code: ICE2002
+      title: Data structures
+      period: Spring 2013, Fall 2014
+    - code: CSE3002
+      title: Algorithms
+      period: Spring 2013
+    - code: CSE3039
+      title: Programming Languages
+      period: Spring 2015
