@@ -1,0 +1,65 @@
+---
+---
+
+<dt><i>Patents</i> 💡</dt>
+
+<dd id="patents-container">
+  <p>Loading patents...</p>
+</dd>
+
+<script>
+  fetch('/assets/data/patents.csv')
+    .then(response => response.text())
+    .then(data => {
+      Papa.parse(data, {
+        header: true,
+        delimiter: ',',
+        step: function (row) {
+          const d = row.data;
+          const sep = d.Title.indexOf('/');
+          d.Title = d.Title.charAt(0).toUpperCase() + d.Title.substring(1, sep).toLowerCase() + d.Title.substring(sep);
+        },
+        complete: function () {
+          const patents = [];
+          Papa.parse(data, {
+            header: true,
+            delimiter: ',',
+            step: function (row) {
+              const d = row.data;
+              const sep = d.Title.indexOf('/');
+              d.Title = d.Title.charAt(0).toUpperCase() + d.Title.substring(1, sep).toLowerCase() + d.Title.substring(sep);
+              patents.push(d);
+            },
+            complete: function () {
+              patents.sort((a, b) => {
+                const da = new Date(a.ApplicationDate);
+                const db = new Date(b.ApplicationDate);
+                return db - da;
+              });
+
+              const container = document.getElementById('patents-container');
+              container.innerHTML = '';
+
+              patents.forEach(patent => {
+                const h4 = document.createElement('h4');
+                h4.textContent = patent.Title;
+                
+                const detail = document.createElement('div');
+                detail.className = 'patentDetail';
+                detail.textContent = patent.Country + ' ';
+                
+                if (patent.RegistrationDate) {
+                  detail.textContent += patent.PatentNumber + ' (Issued: ' + patent.RegistrationDate + ')';
+                } else if (patent.ApplicationDate) {
+                  detail.textContent += patent.ApplicationNumber + ' (Pending: ' + patent.ApplicationDate + ')';
+                }
+                
+                container.appendChild(h4);
+                container.appendChild(detail);
+              });
+            }
+          });
+        }
+      });
+    });
+</script>

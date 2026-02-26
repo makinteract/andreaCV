@@ -1,0 +1,61 @@
+---
+---
+
+<dt><i>Highlights</i> ⭐️</dt>
+<dd id="highlights-content">
+  <ul>
+    <li>
+      Research in the field of <em>Human-Computer Interaction (HCI)</em>: 
+      <div class="indent"><strong>AR-VR</strong> / <strong>Haptics</strong> / <strong>Physical computing</strong></div>
+    </li>
+    <li>
+      Citations: <span class="citations"><strong>...</strong></span> H-index: <span class="h-index"><strong>...</strong></span>
+    </li>
+    <li>
+      <span class="inproc"><strong>...</strong></span> international conference and <span class="article"><strong>...</strong></span> journal papers
+    </li>
+    <li>
+      <strong>Best Paper Awards</strong> UIST 2020, TEI 2021, MobileHCI 2013
+    </li>
+    <li>
+      <strong>Honorable Mention Awards</strong> CHI 2021-2022, MobileHCI 2016-2017
+    </li>
+    <li>
+      KAIST 2020 Technology Innovation Award <strong>공과대학 2020 기술혁신 우수상</strong>
+    </li>
+    <li>
+      <strong>SIGCHI Korea Local Chapter co-chair</strong> (2022-2023)
+    </li>
+  </ul>
+</dd>
+
+<script>
+  fetch('https://personal-scholar.onrender.com/author/wVDtZB0AAAAJ')
+    .then(response => response.json())
+    .then(data => {
+      document.querySelector('.citations strong').textContent = data.citations;
+      document.querySelector('.h-index strong').textContent = data.h_index;
+    })
+    .catch(() => {
+      document.querySelector('.citations strong').textContent = '1502';
+      document.querySelector('.h-index strong').textContent = '21';
+    });
+
+  fetch('/assets/data/publications.bib')
+    .then(res => res.text())
+    .then(data => {
+      const inproc = (data.match(/@inproceedings/g) || []).length;
+      const article = (data.match(/@article/g) || []).length;
+      document.querySelector('.inproc strong').textContent = inproc;
+      document.querySelector('.article strong').textContent = article;
+    });
+</script>
+
+<style>
+  dt {
+    color: #FF0070;
+  }
+  .indent {
+    margin-left: 2em;
+  }
+</style>

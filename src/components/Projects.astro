@@ -1,0 +1,46 @@
+---
+---
+
+<dt><i>Fundings</i> 💵</dt>
+
+<dd id="projects-container">
+  <p>Loading projects...</p>
+</dd>
+
+<script>
+  fetch('/assets/data/projects.csv')
+    .then(response => response.text())
+    .then(data => {
+      const projects = [];
+      
+      Papa.parse(data, {
+        header: true,
+        delimiter: ',',
+        step: function (row) {
+          projects.push(row.data);
+        },
+        complete: function () {
+          projects.sort((a, b) => {
+            const da = new Date(a.Start);
+            const db = new Date(b.Start);
+            return db - da;
+          });
+
+          const container = document.getElementById('projects-container');
+          container.innerHTML = '';
+
+          projects.forEach(project => {
+            const h4 = document.createElement('h4');
+            h4.textContent = project.Title + ' [' + project.PrjNumber + ']';
+            
+            const detail = document.createElement('div');
+            detail.className = 'patentDetail';
+            detail.textContent = 'Role: ' + project.Role + ' | Funding Agency: ' + project.FundingAgency + ' ' + project.Start + ' - ' + project.End + ' | ' + project.Amount + '₩';
+            
+            container.appendChild(h4);
+            container.appendChild(detail);
+          });
+        }
+      });
+    });
+</script>

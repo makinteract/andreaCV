@@ -1,0 +1,35 @@
+---
+import { parse } from 'yaml';
+import educationYaml from '../data/education.yaml?raw';
+
+const educationData = parse(educationYaml);
+---
+
+<dt><i>Education</i> 📚</dt>
+
+<dd>
+  <ul>
+    {educationData.map((school, index) => (
+      <li class={index > 0 ? 'mt' : ''}>
+        <h2 class="institution">{school.institution} <span class="detail" style="font-size: 0.8em; font-weight: normal; color: black;">{school.location}</span></h2>
+        {school.degrees.map((degree) => (
+          <div style="margin-left: 0;">
+            <strong>{degree.title}</strong>
+            {degree.roles && degree.roles.map((role) => (
+              <div class="description" style="margin-left: 2em; position: relative;">
+                {role.title}<span class="side">{role.period}</span>
+                {role.note && <div style="font-size: 0.8em; color: #666;">{role.note}</div>}
+              </div>
+            ))}
+            {!degree.roles && (
+              <div class="description" style="margin-left: 2em; position: relative;">
+                <span class="side">{degree.year}</span>
+                {degree.detail && <div style="font-size: 0.8em; color: #666;">{degree.detail}</div>}
+              </div>
+            )}
+          </div>
+        ))}
+      </li>
+    ))}
+  </ul>
+</dd>

@@ -1,0 +1,18 @@
+- institution: KAIST
+  location: Daejeon, Korea 🇰🇷
+  degrees:
+    - title: Ph.D. in Culture Technology
+      year: 2008-2012
+      detail: Concentration in Human-Computer Interaction (HCI)
+
+- institution: New York University
+  location: New York, USA 🇺🇸
+  degrees:
+    - title: MS. in Computer Science
+      year: 2005-2007
+
+- institution: "Universita' Bocconi"
+  location: Milano, Italy 🇮🇹
+  degrees:
+    - title: Laurea (BS+MS) in Business Administration
+      year: 1999-2004

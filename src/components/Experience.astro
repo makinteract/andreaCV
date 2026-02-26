@@ -1,0 +1,29 @@
+---
+import { parse } from 'yaml';
+import experienceYaml from '../data/experience.yaml?raw';
+
+const experienceData = parse(experienceYaml);
+---
+
+<dt><i>Experience </i>💼</dt>
+
+<dd>
+  <ul>
+    {experienceData.map((job, index) => (
+      <li class={index > 0 ? 'mt' : ''}>
+        <h2 class="institution">{job.institution} <span class="detail" style="font-size: 0.8em; font-weight: normal; color: black;">{job.location}</span></h2>
+        {job.departments.map((dept) => (
+          <div style="margin-left: 0;">
+            <strong>{dept.name}</strong>
+            {dept.roles.map((role) => (
+              <div class="description" style="margin-left: 2em; position: relative;">
+                {role.title}<span class="side">{role.period}</span>
+                {role.note && <div style="font-size: 0.8em; color: #666;">{role.note}</div>}
+              </div>
+            ))}
+          </div>
+        ))}
+      </li>
+    ))}
+  </ul>
+</dd>

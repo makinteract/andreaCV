@@ -1,0 +1,84 @@
+---
+const publications = 'https://raw.githubusercontent.com/makinteract/andreaCV/main/assets/data/publications.bib';
+---
+
+<dt><i>Publications</i> 🧾</dt>
+<dd>
+  <div id="bibtex_display" />
+</dd>
+
+<div class="bibtex_template">
+  <div class="if author" style="font-weight: bold">
+    <span class="title" />
+    <span class="if year">
+      (<span class="year" />)
+    </span>
+  </div>
+  <div style="margin-left: 10px">
+    <span class="author" />
+    <span class="proceedings">
+      <span class="if booktitle">
+        In
+        <span class="booktitle" />
+      </span>
+      <span class="if journal">
+        In
+        <span class="journal" />
+      </span>
+    </span>
+  </div>
+</div>
+
+<div class="bibtex_structure">
+  <div class="sections bibtextypekey">
+    <div class="section inproceedings">
+      <h2 class="publicationGroup">Conferences (<span class="inproc-count">0</span>)</h2>
+      <div class="sort year" extra="DESC number">
+        <div class="templates" />
+      </div>
+    </div>
+    <div class="section article">
+      <h2 class="mt publicationGroup">Journals (<span class="article-count">0</span>)</h2>
+      <div class="sort year" extra="DESC number">
+        <div class="templates" />
+      </div>
+    </div>
+    <div class="section domestic">
+      <h2 class="mt publicationGroup">Domestic venues (<span class="domestic-count">0</span>)</h2>
+      <div class="sort year" extra="DESC number">
+        <div class="templates" />
+      </div>
+    </div>
+    <div class="section other|wip">
+      <h2 class="mt publicationGroup">Other publications (<span class="other-count">0</span>)</h2>
+      <div class="sort year" extra="DESC number">
+        <div class="templates" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<bibtex src={publications} />
+
+<script define:vars={{ publications }}>
+  fetch(publications)
+    .then(res => res.text())
+    .then(data => {
+      const inproc = (data.match(/@inproceedings/g) || []).length;
+      const article = (data.match(/@article/g) || []).length;
+      const domestic = (data.match(/@domestic/g) || []).length;
+      const wip = (data.match(/@wip/g) || []).length;
+      const other = (data.match(/@other/g) || []).length;
+
+      document.querySelector('.inproc-count').textContent = inproc;
+      document.querySelector('.article-count').textContent = article;
+      document.querySelector('.domestic-count').textContent = domestic;
+      document.querySelector('.other-count').textContent = wip + other;
+    });
+</script>
+
+<style>
+  h2 {
+    text-decoration: underline;
+  }
+</style>
