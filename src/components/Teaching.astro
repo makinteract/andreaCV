@@ -1,12 +1,14 @@
 ---
 import { parse } from 'yaml';
 import teachingYaml from '../data/teaching.yaml?raw';
+import Space from './Space.astro';
 
 const teachingData = parse(teachingYaml);
 ---
 
 <dt><i>Teaching</i> 🏛</dt>
 
+<!-- Automatically generated from data/teaching.yaml -->
 <dd>
   <ul>
     {teachingData.map((school, index) => (
@@ -24,3 +26,5 @@ const teachingData = parse(teachingYaml);
     ))}
   </ul>
 </dd>
+
+

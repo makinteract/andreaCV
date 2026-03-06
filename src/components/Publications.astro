@@ -1,10 +1,15 @@
 ---
-const publications = 'https://raw.githubusercontent.com/makinteract/andreaCV/main/assets/data/publications.bib';
+const publicationsUrl = 'https://scholar.googleusercontent.com/citations?view_op=export_citations&user=wVDtZB0AAAAJ&citsig=AF5TLtkAAAAAaalST4TnJVA3eoL2PXFeoAZYfYU&hl=en';
+const response = await fetch(publicationsUrl);
+const publicationsData = await response.text();
 ---
 
 <dt><i>Publications</i> 🧾</dt>
 <dd>
-  <div id="bibtex_display" />
+  <div id="loading-publications" class="loading-indicator">
+    Loading publications<span class="dots"></span>
+  </div>
+  <div id="bibtex_display" style="display: none;" />
 </dd>
 
 <div class="bibtex_template">
@@ -58,27 +63,90 @@ const publications = 'https://raw.githubusercontent.com/makinteract/andreaCV/mai
   </div>
 </div>
 
-<bibtex src={publications} />
+<bibtex id="bibtex-src" />
 
-<script define:vars={{ publications }}>
-  fetch(publications)
-    .then(res => res.text())
-    .then(data => {
-      const inproc = (data.match(/@inproceedings/g) || []).length;
-      const article = (data.match(/@article/g) || []).length;
-      const domestic = (data.match(/@domestic/g) || []).length;
-      const wip = (data.match(/@wip/g) || []).length;
-      const other = (data.match(/@other/g) || []).length;
+<script define:vars={{ publicationsData }}>
+  const data = publicationsData;
+  const bibtexDisplay = document.getElementById('bibtex_display');
+  const loadingIndicator = document.getElementById('loading-publications');
+  
+  // Set up observer before loading bibtex
+  const observer = new MutationObserver((mutations) => {
+    if (bibtexDisplay.children.length > 0) {
+      // Add delay to ensure loading animation is visible
+      setTimeout(() => {
+        loadingIndicator.style.display = 'none';
+        bibtexDisplay.style.display = 'block';
+        observer.disconnect();
+      }, 1000);
+    }
+  });
+  
+  observer.observe(bibtexDisplay, { childList: true, subtree: true });
+  
+  // Create a blob URL for the bibtex component
+  const blob = new Blob([data], { type: 'text/plain' });
+  const blobUrl = URL.createObjectURL(blob);
+  
+  // Update the bibtex src attribute
+  const bibtexElement = document.querySelector('bibtex');
+  if (bibtexElement) {
+    bibtexElement.setAttribute('src', blobUrl);
+  }
+  
+  // Count publications
+  const inproc = (data.match(/@inproceedings/g) || []).length;
+  const article = (data.match(/@article/g) || []).length;
+  const domestic = (data.match(/@domestic/g) || []).length;
+  const wip = (data.match(/@wip/g) || []).length;
+  const other = (data.match(/@other/g) || []).length;
 
-      document.querySelector('.inproc-count').textContent = inproc;
-      document.querySelector('.article-count').textContent = article;
-      document.querySelector('.domestic-count').textContent = domestic;
-      document.querySelector('.other-count').textContent = wip + other;
-    });
+  document.querySelector('.inproc-count').textContent = inproc;
+  document.querySelector('.article-count').textContent = article;
+  document.querySelector('.domestic-count').textContent = domestic;
+  document.querySelector('.other-count').textContent = wip + other;
+  
+  // Fallback timeout in case observer doesn't catch it
+  setTimeout(() => {
+    if (bibtexDisplay.children.length > 0) {
+      loadingIndicator.style.display = 'none';
+      bibtexDisplay.style.display = 'block';
+    }
+  }, 5000);
 </script>
 
 <style>
   h2 {
     text-decoration: underline;
+  }
+  
+  .loading-indicator {
+    padding: 20px 0;
+    color: #666;
+    font-style: italic;
+    display: block;
+  }
+  
+  .dots::after {
+    content: '';
+    animation: dots 1.5s steps(4, end) infinite;
+    display: inline-block;
+    width: 20px;
+    text-align: left;
+  }
+  
+  @keyframes dots {
+    0%, 20% {
+      content: '';
+    }
+    40% {
+      content: '.';
+    }
+    60% {
+      content: '..';
+    }
+    80%, 100% {
+      content: '...';
+    }
   }
 </style>

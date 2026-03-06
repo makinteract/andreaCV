@@ -6,12 +6,17 @@ title: Services 🙋🏻‍♂️
 ### Program committee and editor
 
 - _UIST 2025_ Program Co-Chair
+- _CHI 2026_ Subcommitte chair (_Blending Interaction: Engineering Interactive Systems & Tools_)
 - _CHI 2025_ Subcommitte chair (_Blending Interaction: Engineering Interactive Systems & Tools_)
+- _EuroHaptics 2026_ Workshop Co-Chair
+- _Korea Haptics Conference 2026_ Demo Co-Chair
+- _IEEE Transactions on Haptics_ Associated Editor (2024-2027)
+- _Korean Society of Design Science_ Board Member (2024-2027)
 - _IEEE World Haptics 2025_ Demo Co-Chair
-- _CHI_ 2024/23/22/21/19/18/16/15
-- _UIST_ 2023/20
-- _DIS_ 2020/18
-- _TEI_ 2018/16
+- _CHI_ Associate chair 2024/23/22/21/19/18/16/15
+- _UIST_ Associate chair 2023/20
+- _DIS_ Associate chair 2020/18
+- _TEI_ Associate chair 2018/16
 - _IEEE Transactions on Haptics_ 2021/20 guest editor
 - _Korea HCI_ 2021 Digital Fabrication Panel Organizer
 - _MIMSVAI_ 2021 Workshop (Multiple Input Modalities and Sensations for VR/AR Interactions)
@@ -35,7 +40,7 @@ title: Services 🙋🏻‍♂️
 - _Asia Haptics_ 2018 demo co-chair
 - _TEI_ 2017 WIP chair
 - _IEEE World Haptics_ 2013 art chair
-- _HAID_ 2013 poster chair
+- _HAID 2013_ poster chair
 
 ### Department/University Roles
 

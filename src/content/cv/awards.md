@@ -3,6 +3,9 @@ section: awards
 title: Awards 🥇
 ---
 
+<dt><i>Awards</i> 🥇</dt>
+<dd>
+
 - **Best Paper Award** UIST 2020
 - **Best Paper Award** TEI 2021
 - **Best Paper Award** MobileHCI 2013
@@ -25,3 +28,5 @@ title: Awards 🥇
 - KAIST 2020 Technology Innovation Award **공과대학 2020 기술혁신 우수상**
 - KAIST Breakthroughs **2022 Readers' Choice Award** (16 February 2022, College of Engineering)
 - **Excellence Teaching Award** Fall 2017 Industrial Design, KAIST
+
+</dd>

@@ -17,10 +17,10 @@ const services = await getCollection('cv', ({ data }) => data.section === 'servi
 const talks = await getCollection('cv', ({ data }) => data.section === 'talks');
 const press = await getCollection('cv', ({ data }) => data.section === 'press');
 
-const { Content: AwardsContent } = await awards[0].render();
-const { Content: ServicesContent } = await services[0].render();
-const { Content: TalksContent } = await talks[0].render();
-const { Content: PressContent } = await press[0].render();
+const { Content: Awards } = await awards[0].render();
+const { Content: Services } = await services[0].render();
+const { Content: Talks } = await talks[0].render();
+const { Content: Press } = await press[0].render();
 ---
 
 <Layout title="Andrea Bianchi's CV">
@@ -32,24 +32,22 @@ const { Content: PressContent } = await press[0].render();
       <!-- <Highlights /> -->
       <!-- <Space /> -->
 
-      <Experience />
-      <Space />
+      <!-- <Experience/><Space /> -->
 
-      <Education />
-      <Space />
+      <!-- <Education/><Space />  -->
 
-      <!-- <Teaching />
+      <!-- <Teaching/><Space /> -->
+<!-- <Services/> -->
+      <!-- <dt><i>Services</i> 🙋🏻‍♂️</dt>
+      <dd><ServicesContent /></dd>
       <Space /> -->
-
       <!-- <Patents />
       <Space /> -->
+      <!-- <Publications /> 
+      <Space />  -->
 
-      <!-- <Publications />
-      <Space /> -->
-
-      <!-- <dt><i>Awards</i> 🥇</dt>
-      <dd><AwardsContent /></dd>
-      <Space /> -->
+      <Awards/> 
+      <Space /> 
 
       <!--  
    
@@ -59,7 +57,7 @@ const { Content: PressContent } = await press[0].render();
 
       
 
-      <dt><i>Services</i> 🙋🏻‍♂️</dt>
+      
       <dd><ServicesContent /></dd>
       <Space />
 
