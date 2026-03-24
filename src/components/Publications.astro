@@ -1,11 +1,12 @@
 ---
-const publicationsUrl = 'https://scholar.googleusercontent.com/citations?view_op=export_citations&user=wVDtZB0AAAAJ&citsig=AF5TLtkAAAAAaalST4TnJVA3eoL2PXFeoAZYfYU&hl=en';
+const publicationsUrl = 'https://scholar.googleusercontent.com/citations?view_op=export_citations&user=wVDtZB0AAAAJ&citsig=ADQXK0wAAAAAacOSoe0bNy35xPxEvlDfxJ0WQdw&hl=en';
 const response = await fetch(publicationsUrl);
 const publicationsData = await response.text();
 ---
 
 <dt><i>Publications</i> 🧾</dt>
 <dd>
+  <p style="margin-bottom: 0.5em;">For a complete list refer to the <a href="https://scholar.google.com/citations?user=wVDtZB0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar page</a>.</p>
   <div id="loading-publications" class="loading-indicator">
     Loading publications<span class="dots"></span>
   </div>
@@ -37,25 +38,25 @@ const publicationsData = await response.text();
 <div class="bibtex_structure">
   <div class="sections bibtextypekey">
     <div class="section inproceedings">
-      <h2 class="publicationGroup">Conferences (<span class="inproc-count">0</span>)</h2>
+      <h2 class="publicationGroup">Conferences <span class="inproc-count">(0)</span></h2>
       <div class="sort year" extra="DESC number">
         <div class="templates" />
       </div>
     </div>
     <div class="section article">
-      <h2 class="mt publicationGroup">Journals (<span class="article-count">0</span>)</h2>
+      <h2 class="mt publicationGroup">Journals <span class="article-count">(0)</span></h2>
       <div class="sort year" extra="DESC number">
         <div class="templates" />
       </div>
     </div>
     <div class="section domestic">
-      <h2 class="mt publicationGroup">Domestic venues (<span class="domestic-count">0</span>)</h2>
+      <h2 class="mt publicationGroup">Domestic venues <span class="domestic-count">(0)</span></h2>
       <div class="sort year" extra="DESC number">
         <div class="templates" />
       </div>
     </div>
     <div class="section other|wip">
-      <h2 class="mt publicationGroup">Other publications (<span class="other-count">0</span>)</h2>
+      <h2 class="mt publicationGroup">Other publications <span class="other-count">(0)</span></h2>
       <div class="sort year" extra="DESC number">
         <div class="templates" />
       </div>
@@ -101,10 +102,10 @@ const publicationsData = await response.text();
   const wip = (data.match(/@wip/g) || []).length;
   const other = (data.match(/@other/g) || []).length;
 
-  document.querySelector('.inproc-count').textContent = inproc;
-  document.querySelector('.article-count').textContent = article;
-  document.querySelector('.domestic-count').textContent = domestic;
-  document.querySelector('.other-count').textContent = wip + other;
+  document.querySelector('.inproc-count').textContent = `(${inproc})`;
+  document.querySelector('.article-count').textContent = `(${article})`;
+  document.querySelector('.domestic-count').textContent = `(${domestic})`;
+  document.querySelector('.other-count').textContent = `(${wip + other})`;
   
   // Fallback timeout in case observer doesn't catch it
   setTimeout(() => {
@@ -117,7 +118,13 @@ const publicationsData = await response.text();
 
 <style>
   h2 {
-    text-decoration: underline;
+    text-decoration: none;
+  }
+
+  h2.publicationGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
   }
   
   .loading-indicator {

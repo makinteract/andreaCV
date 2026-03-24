@@ -1,0 +1,12 @@
+- [x] Experinece
+- [x] Education
+- [x] Teaching
+- [x] Awards
+- [x] Press
+- [x] Talks
+- [x] Patents
+- [ ] Publications
+- [ ] Projects
+- [ ] Profile
+- [ ] Highlights
+- [ ] Services

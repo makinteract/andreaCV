@@ -27,7 +27,7 @@ const sortedPatents = sortPatents(patentsData);
     <div style="margin-bottom: 0.5em;">
       <strong>[P{index + 1}] {patent.title}</strong>
       <span style="font-size: 0.8em; color: #666;">
-        {' '}{patent.country}
+        {' '}{<b>{patent.country}</b>}
         {patent.patent_no && <> {patent.patent_no} (Issued: {patent.registration_date})</>}
         {!patent.patent_no && <> {patent.application_no} (Pending: {patent.application_date})</>}
       </span>

@@ -3,7 +3,7 @@ section: highlights
 title: Highlights ⭐️
 ---
 
-- Research in the field of _Human-Computer Interaction (HCI)_: 
+- Research in the field of _Human-Computer Interaction (HCI)_:
   - **AR-VR** / **Haptics** / **Physical computing**
 - Citations: **{citations}** H-index: **{h_index}**
 - **{inproc}** international conference and **{article}** journal papers

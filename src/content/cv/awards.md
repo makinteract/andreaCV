@@ -15,6 +15,7 @@ title: Awards 🥇
 
 <br>
 
+- **Honorable Mention Award** CHI 2026
 - **Honorable Mention Award** CHI 2025
 - **Honorable Mention Award** CHI 2024
 - **Honorable Mention Award** CHI 2022
