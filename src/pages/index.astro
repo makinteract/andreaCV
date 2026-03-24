@@ -12,10 +12,10 @@ import Projects from '../components/Projects.astro';
 import Footer from '../components/Footer.astro';
 import { getCollection } from 'astro:content';
 
-const awards = await getCollection('cv', ({ data }) => data.section === 'awards');
-const services = await getCollection('cv', ({ data }) => data.section === 'services');
-const talks = await getCollection('cv', ({ data }) => data.section === 'talks');
-const press = await getCollection('cv', ({ data }) => data.section === 'press');
+const awards = await getCollection('markdown', ({ data }) => data.section === 'awards');
+const services = await getCollection('markdown', ({ data }) => data.section === 'services');
+const talks = await getCollection('markdown', ({ data }) => data.section === 'talks');
+const press = await getCollection('markdown', ({ data }) => data.section === 'press');
 
 const { Content: Awards } = await awards[0].render();
 const { Content: Services } = await services[0].render();
@@ -29,7 +29,7 @@ const { Content: Press } = await press[0].render();
     <Space /> 
 
     <dl>
-      <!-- <Highlights/><Space/> -->
+      <Highlights/><Space/>
 
       <Experience/><Space/>
       <Education/><Space/> 

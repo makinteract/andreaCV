@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 
-const cv = defineCollection({
+const markdwon = defineCollection({
   type: 'content',
   schema: z.object({
     section: z.string(),
@@ -8,4 +8,4 @@ const cv = defineCollection({
   }),
 });
 
-export const collections = { cv };
+export const collections = { markdown: markdwon };
