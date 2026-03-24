@@ -1,7 +1,7 @@
 ---
-const publicationsUrl = 'https://scholar.googleusercontent.com/citations?view_op=export_citations&user=wVDtZB0AAAAJ&citsig=ADQXK0wAAAAAacOSoe0bNy35xPxEvlDfxJ0WQdw&hl=en';
-const response = await fetch(publicationsUrl);
-const publicationsData = await response.text();
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+const publicationsData = readFileSync(resolve('src/data/andrea-pub.bib'), 'utf-8');
 ---
 
 <dt><i>Publications</i> 🧾</dt>
@@ -49,13 +49,7 @@ const publicationsData = await response.text();
         <div class="templates" />
       </div>
     </div>
-    <div class="section domestic">
-      <h2 class="mt publicationGroup">Domestic venues <span class="domestic-count">(0)</span></h2>
-      <div class="sort year" extra="DESC number">
-        <div class="templates" />
-      </div>
-    </div>
-    <div class="section other|wip">
+    <div class="section misc|incollection|domestic|other|wip">
       <h2 class="mt publicationGroup">Other publications <span class="other-count">(0)</span></h2>
       <div class="sort year" extra="DESC number">
         <div class="templates" />
@@ -99,13 +93,12 @@ const publicationsData = await response.text();
   const inproc = (data.match(/@inproceedings/g) || []).length;
   const article = (data.match(/@article/g) || []).length;
   const domestic = (data.match(/@domestic/g) || []).length;
-  const wip = (data.match(/@wip/g) || []).length;
-  const other = (data.match(/@other/g) || []).length;
+  const misc = (data.match(/@misc/g) || []).length;
+  const incollection = (data.match(/@incollection/g) || []).length;
 
   document.querySelector('.inproc-count').textContent = `(${inproc})`;
   document.querySelector('.article-count').textContent = `(${article})`;
-  document.querySelector('.domestic-count').textContent = `(${domestic})`;
-  document.querySelector('.other-count').textContent = `(${wip + other})`;
+  document.querySelector('.other-count').textContent = `(${domestic + misc + incollection})`;
   
   // Fallback timeout in case observer doesn't catch it
   setTimeout(() => {
