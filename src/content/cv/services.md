@@ -3,7 +3,10 @@ section: services
 title: Services 🙋🏻‍♂️
 ---
 
-### Program committee and editor
+<dt><i>Services</i> 🙋🏻‍♂️</dt>
+<dd>
+
+## Program committee and editor
 
 - _UIST 2025_ Program Co-Chair
 - _CHI 2026_ Subcommitte chair (_Blending Interaction: Engineering Interactive Systems & Tools_)
@@ -15,6 +18,7 @@ title: Services 🙋🏻‍♂️
 - _IEEE World Haptics 2025_ Demo Co-Chair
 - _CHI_ Associate chair 2024/23/22/21/19/18/16/15
 - _UIST_ Associate chair 2023/20
+- _Symposium on Computations Fabrication (SCF)_ Assocaite chair 2026
 - _DIS_ Associate chair 2020/18
 - _TEI_ Associate chair 2018/16
 - _IEEE Transactions on Haptics_ 2021/20 guest editor
@@ -25,7 +29,9 @@ title: Services 🙋🏻‍♂️
 - _DESFORM_ 2017
 - _IMCOM_ 2015
 
-### Conference chair/organizer
+<br>
+
+## Conference chair/organizer
 
 - _UIST 2024_ Doctoral Symposium Panelist
 - _Korean Society of Design Science (KSDS)_ Board member/이사 (1/1/2024-31/12/2025)
@@ -42,7 +48,9 @@ title: Services 🙋🏻‍♂️
 - _IEEE World Haptics_ 2013 art chair
 - _HAID 2013_ poster chair
 
-### Department/University Roles
+<br>
+
+## Department/University Roles
 
 - External Cooperation Committee of the College of Engineering (2021.3 - present)
 - International Graduate Students Admission Coordinator (2021.3 - present)

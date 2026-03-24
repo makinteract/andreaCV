@@ -5,8 +5,7 @@
 - [x] Press
 - [x] Talks
 - [x] Patents
-- [ ] Publications
-- [ ] Projects
-- [ ] Profile
+- [x] Publications
+- [x] Services
+- [x] Profile
 - [ ] Highlights
-- [ ] Services
