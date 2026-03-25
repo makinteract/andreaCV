@@ -1,4 +1,32 @@
 ---
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+
+let citations = '...';
+let h_index = '...';
+const andreaScholarId = 'wVDtZB0AAAAJ&hl=en';
+const serverUrl = 'https://personal-scholar.onrender.com';
+
+try {
+  const res = await fetch(`${serverUrl}/citations/${andreaScholarId}`);
+  const data = await res.json();
+  citations = data.citations.all;
+} catch (e) {
+  // leave defaults
+}
+try {
+  const res = await fetch(`${serverUrl}/h-index/${andreaScholarId}`);
+  const data = await res.json();
+  h_index = data.h_index.all;
+} catch (e) {
+  // leave defaults
+}
+
+
+
+const bibData = readFileSync(resolve('src/data/andrea-pub.bib'), 'utf-8');
+const inproc = (bibData.match(/@inproceedings/g) || []).length;
+const article = (bibData.match(/@article/g) || []).length;
 ---
 
 <dt><i>Highlights</i> ⭐️</dt>
@@ -9,47 +37,25 @@
       <div class="indent"><strong>AR-VR</strong> / <strong>Haptics</strong> / <strong>Physical computing</strong></div>
     </li>
     <li>
-      Citations: <span class="citations"><strong>...</strong></span> H-index: <span class="h-index"><strong>...</strong></span>
+      Citations: <span class="citations"><strong>{citations}</strong></span> H-index: <span class="h-index"><strong>{h_index}</strong></span>
     </li>
     <li>
-      <span class="inproc"><strong>...</strong></span> international conference and <span class="article"><strong>...</strong></span> journal papers
+      <span class="inproc"><strong>{inproc}</strong></span> international conference and <span class="article"><strong>{article}</strong></span> journal papers
     </li>
     <li>
       <strong>Best Paper Awards</strong> UIST 2020, TEI 2021, MobileHCI 2013
     </li>
     <li>
-      <strong>Honorable Mention Awards</strong> CHI 2021-2022, MobileHCI 2016-2017
+      <strong>5 CHI Honorable Mention Awards</strong> and <strong>4 at other ACM conferences</strong>
     </li>
     <li>
-      KAIST 2020 Technology Innovation Award <strong>공과대학 2020 기술혁신 우수상</strong>
+      <strong>4 KAIST awards</strong> for International Cooperation and Research Excellence
     </li>
     <li>
-      <strong>SIGCHI Korea Local Chapter co-chair</strong> (2022-2023)
+      UIST 2025 <strong>Paper Co-Chair</strong> 
     </li>
   </ul>
 </dd>
-
-<script>
-  fetch('https://personal-scholar.onrender.com/author/wVDtZB0AAAAJ')
-    .then(response => response.json())
-    .then(data => {
-      document.querySelector('.citations strong').textContent = data.citations;
-      document.querySelector('.h-index strong').textContent = data.h_index;
-    })
-    .catch(() => {
-      document.querySelector('.citations strong').textContent = '1502';
-      document.querySelector('.h-index strong').textContent = '21';
-    });
-
-  fetch('/assets/data/publications.bib')
-    .then(res => res.text())
-    .then(data => {
-      const inproc = (data.match(/@inproceedings/g) || []).length;
-      const article = (data.match(/@article/g) || []).length;
-      document.querySelector('.inproc strong').textContent = inproc;
-      document.querySelector('.article strong').textContent = article;
-    });
-</script>
 
 <style>
   dt {
