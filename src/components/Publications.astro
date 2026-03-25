@@ -1,5 +1,7 @@
 ---
+//@ts-ignore
 import { readFileSync } from 'fs';
+//@ts-ignore
 import { resolve } from 'path';
 const publicationsData = readFileSync(resolve('src/data/andrea-pub.bib'), 'utf-8');
 ---
@@ -39,19 +41,19 @@ const publicationsData = readFileSync(resolve('src/data/andrea-pub.bib'), 'utf-8
   <div class="sections bibtextypekey">
     <div class="section inproceedings">
       <h2 class="publicationGroup">Conferences <span class="inproc-count">(0)</span></h2>
-      <div class="sort year" extra="DESC number">
+      <div class="sort year" {...{'extra': 'DESC number'}}>
         <div class="templates" />
       </div>
     </div>
     <div class="section article">
       <h2 class="mt publicationGroup">Journals <span class="article-count">(0)</span></h2>
-      <div class="sort year" extra="DESC number">
+      <div class="sort year" {...{'extra': 'DESC number'}}>
         <div class="templates" />
       </div>
     </div>
     <div class="section misc|incollection|domestic|other|wip">
       <h2 class="mt publicationGroup">Other publications <span class="other-count">(0)</span></h2>
-      <div class="sort year" extra="DESC number">
+      <div class="sort year" {...{'extra': 'DESC number'}}>
         <div class="templates" />
       </div>
     </div>

@@ -8,25 +8,36 @@
 </dd>
 
 <script>
+  interface Project {
+    Title: string;
+    PrjNumber: string;
+    Role: string;
+    FundingAgency: string;
+    Start: string;
+    End: string;
+    Amount: string;
+  }
+
   fetch('/assets/data/projects.csv')
     .then(response => response.text())
     .then(data => {
-      const projects = [];
+      const projects: Project[] = [];
       
-      Papa.parse(data, {
+      (window as any).Papa.parse(data, {
         header: true,
         delimiter: ',',
-        step: function (row) {
+        step: function (row: { data: Project }) {
           projects.push(row.data);
         },
         complete: function () {
           projects.sort((a, b) => {
-            const da = new Date(a.Start);
-            const db = new Date(b.Start);
+            const da = new Date(a.Start).getTime();
+            const db = new Date(b.Start).getTime();
             return db - da;
           });
 
-          const container = document.getElementById('projects-container');
+          const container = document.getElementById('projects-container') as HTMLElement | null;
+          if (!container) return;
           container.innerHTML = '';
 
           projects.forEach(project => {

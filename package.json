@@ -11,5 +11,8 @@
   "dependencies": {
     "astro": "^5.17.1",
     "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
   }
 }
