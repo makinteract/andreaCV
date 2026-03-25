@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "publish": "npm run build && npx surge dist --domain andrea.kaist.id"
   },
   "dependencies": {
     "astro": "^5.17.1",
