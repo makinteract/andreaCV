@@ -1,43 +1,49 @@
-# Astro Starter Kit: Minimal
+# Andrea Bianchi — CV
 
-```sh
-npm create astro@latest -- --template minimal
+A single-page academic CV for [Andrea Bianchi](http://andrea.kaist.id), Associate Professor at KAIST's Department of Industrial Design (tenured) and Adjunct Professor at the School of Computing and the Human-Robot Interaction Center.
+
+Built with [Astro](https://astro.build) and deployed at **[andrea.kaist.id](http://andrea.kaist.id)**.
+
+## Project Structure
+
+```
+src/
+├── components/       # One .astro component per CV section
+├── content/
+│   └── markdown/     # Awards, press, services, talks (Markdown)
+├── data/             # Publications (.bib), experience, education,
+│                     # patents, teaching (YAML)
+├── layouts/
+│   └── Layout.astro  # Base HTML layout
+└── pages/
+    └── index.astro   # Single-page entry point
+public/
+└── assets/
+    └── images/       # Profile photo and other static images
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Commands
 
-## 🚀 Project Structure
+| Command           | Action                                        |
+| :---------------- | :-------------------------------------------- |
+| `npm install`     | Install dependencies                          |
+| `npm run dev`     | Start local dev server at `localhost:4321`    |
+| `npm run build`   | Build for production to `./dist/`             |
+| `npm run preview` | Preview the production build locally          |
+| `npm run publish` | Build and deploy to `andrea.kaist.id` (Surge) |
 
-Inside of your Astro project, you'll see the following folders and files:
+## Updating Content
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| What to edit                   | Where                          |
+| :----------------------------- | :----------------------------- |
+| Profile info                   | `src/components/Profile.astro` |
+| Experience                     | `src/data/experience.yaml`     |
+| Education                      | `src/data/education.yaml`      |
+| Teaching                       | `src/data/teaching.yaml`       |
+| Patents                        | `src/data/patents.yaml`        |
+| Publications                   | `src/data/andrea-pub.bib`      |
+| Awards, talks, press, services | `src/content/markdown/*.md`    |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Deployment
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+The site is deployed as a static site via [Surge](https://surge.sh) to `andrea.kaist.id`. Run `npm run publish` to build and push a new version.
