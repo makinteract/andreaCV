@@ -14,6 +14,11 @@
           period: 10/2022 - 09/2028
           # 1/10/2022 - 30/9/2028 (6 years) according to the contract
 
+    - name: Department of AX (AI Experience)
+      roles:
+        - title: Adjunct professor
+          period: 4/2026 - present
+
     - name: Human-Robot Interaction Center
       roles:
         - title: Adjunct professor
