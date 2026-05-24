@@ -18,7 +18,7 @@ title: Services 🙋🏻‍♂️
 - _IEEE World Haptics 2025_ Demo Co-Chair
 - _CHI_ Associate chair 2024/23/22/21/19/18/16/15
 - _UIST_ Associate chair 2023/20
-- _Symposium on Computations Fabrication (SCF)_ Assocaite chair 2026
+- _Symposium on Computations Fabrication (SCF)_ Associate chair 2026
 - _DIS_ Associate chair 2020/18
 - _TEI_ Associate chair 2018/16
 - _IEEE Transactions on Haptics_ 2021/20 guest editor
