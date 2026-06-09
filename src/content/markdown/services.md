@@ -52,8 +52,9 @@ title: Services 🙋🏻‍♂️
 
 ## Department/University Roles
 
-- External Cooperation Committee of the College of Engineering (2021.3 - present)
+- External Cooperation Committee of the College of Engineering (2021)
 - International Graduate Students Admission Coordinator (2021.3 - present)
 - Master's Students Coordinator (2021.3 - present)
 - International Coordinator (2020)
+- External Cooperation Committee of the College of Engineering (2021)
 - ID KAIST Space Manager (2017-2020)
