@@ -41,7 +41,7 @@ public/
 | Education                      | `src/data/education.yaml`      |
 | Teaching                       | `src/data/teaching.yaml`       |
 | Patents                        | `src/data/patents.yaml`        |
-| Publications                   | `src/data/andrea-pub.bib`      |
+| Publications                   | `src/data/bib/*.bib`           |
 | Awards, talks, press, services | `src/content/markdown/*.md`    |
 
 ## Deployment
