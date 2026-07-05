@@ -55,12 +55,19 @@ const publicationsData = readdirSync(bibDir)
         <div class="templates" />
       </div>
     </div>
-    <div class="section misc|incollection|domestic|other|wip">
-      <h2 class="mt publicationGroup">Other publications <span class="other-count">(0)</span></h2>
+    <div class="section misc|incollection|other|wip">
+      <h2 class="mt publicationGroup">Extended Abstracts <span class="other-count">(0)</span></h2>
       <div class="sort year" {...{'extra': 'DESC number'}}>
         <div class="templates" />
       </div>
     </div>
+    <div class="section domestic">
+      <h2 class="mt publicationGroup">Domestic <span class="domestic-count">(0)</span></h2>
+      <div class="sort year" {...{'extra': 'DESC number'}}>
+        <div class="templates" />
+      </div>
+    </div>
+ 
   </div>
 </div>
 
@@ -104,7 +111,8 @@ const publicationsData = readdirSync(bibDir)
 
   document.querySelector('.inproc-count').textContent = `(${inproc})`;
   document.querySelector('.article-count').textContent = `(${article})`;
-  document.querySelector('.other-count').textContent = `(${domestic + misc + incollection})`;
+  document.querySelector('.domestic-count').textContent = `(${domestic})`;
+  document.querySelector('.other-count').textContent = `(${misc + incollection})`;
   
   // Fallback timeout in case observer doesn't catch it
   setTimeout(() => {
@@ -182,13 +190,23 @@ const publicationsData = readdirSync(bibDir)
     content: "[J" counter(journal-counter) "] ";
   }
 
-  .section[class~="misc|incollection|domestic|other|wip"] .templates {
+  .section.domestic .templates {
+    counter-reset: domestic-counter;
+  }
+  .section.domestic .bibtexentry {
+    counter-increment: domestic-counter;
+  }
+  .section.domestic .bibtexentry .title::before {
+    content: "[D" counter(domestic-counter) "] ";
+  }
+
+  .section[class~="misc|incollection|other|wip"] .templates {
     counter-reset: other-counter;
   }
-  .section[class~="misc|incollection|domestic|other|wip"] .bibtexentry {
+  .section[class~="misc|incollection|other|wip"] .bibtexentry {
     counter-increment: other-counter;
   }
-  .section[class~="misc|incollection|domestic|other|wip"] .bibtexentry .title::before {
-    content: "[O" counter(other-counter) "] ";
+  .section[class~="misc|incollection|other|wip"] .bibtexentry .title::before {
+    content: "[E" counter(other-counter) "] ";
   }
 </style>
