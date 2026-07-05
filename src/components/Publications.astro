@@ -161,4 +161,34 @@ const publicationsData = readdirSync(bibDir)
     text-decoration: underline;
     text-decoration-style: dotted;
 }
+
+  .section.inproceedings .templates {
+    counter-reset: conf-counter;
+  }
+  .section.inproceedings .bibtexentry {
+    counter-increment: conf-counter;
+  }
+  .section.inproceedings .bibtexentry .title::before {
+    content: "[C" counter(conf-counter) "] ";
+  }
+
+  .section.article .templates {
+    counter-reset: journal-counter;
+  }
+  .section.article .bibtexentry {
+    counter-increment: journal-counter;
+  }
+  .section.article .bibtexentry .title::before {
+    content: "[J" counter(journal-counter) "] ";
+  }
+
+  .section[class~="misc|incollection|domestic|other|wip"] .templates {
+    counter-reset: other-counter;
+  }
+  .section[class~="misc|incollection|domestic|other|wip"] .bibtexentry {
+    counter-increment: other-counter;
+  }
+  .section[class~="misc|incollection|domestic|other|wip"] .bibtexentry .title::before {
+    content: "[O" counter(other-counter) "] ";
+  }
 </style>
