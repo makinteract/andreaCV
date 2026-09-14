@@ -6,6 +6,7 @@ title: Invited Talks & Exhibitions 🎙
 <dt><i>Invited Talks & Exhibitions</i> 🎙</dt>
 <dd>
 
+- **From tools for augmentation to tools for reflection**. Invited keynote at the at the [Humanities x IC x TAICHI x ISAT x APMAR Joint Even](https://humanities-ic.tw/en/home), Taipei, Taiwan _(Host: Lung-Pan Cheng, 5 August 2026)_.
 - **Designing interactive physical tools for reflection in action**. Invited keynote at the at The University of Tokyo, Japan _(Host: Masahiko Inami, 9 June 2026)_.
 - **Designing interactive physical tools for reflection in action**. Invited keynote at the _[1st Italy–Korea 4F Science](https://indico.ibs.re.kr/event/1278)_, IBS, Daejeon, Korea _(Host: Graziano Rossi, AIRSSK President, 21 May 2026)_.
 - **If All You Have is a Hammer": Designing Digitally Augmented Physical Tools**. Invited talk at the _2025 Beyond Real: Exploring the Future of Human Experience in Virtual Reality workshop_, SUSTech, Shenzhen, China _(Host: Seungwoo Je, 27 November 2025)_.
