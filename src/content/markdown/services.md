@@ -29,7 +29,7 @@ title: Services 🙋🏻‍♂️
 
 ## Editorial & Service Roles
 
-- _ACM CHI_ — Associate Chair (2015, 2016, 2018, 2019, 2021, 2022, 2023, 2024)
+- _ACM CHI_ — Associate Chair (2015, 2016, 2018, 2019, 2021, 2022, 2023, 2024, 2027)
 - _ACM UIST_ — Associate Chair (2020, 2023)
 - _ACM Symposium on Computational Fabrication (SCF) 2026_ — Associate Chair
 - _ACM DIS_ — Associate Chair (2018, 2020)
