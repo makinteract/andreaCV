@@ -56,5 +56,5 @@
   departments:
     - name:
       roles:
-        - title: Lead game programmer
+        - title: Game programmer
           period: 02/2007 - 12/2007
