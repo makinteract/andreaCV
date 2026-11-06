@@ -24,6 +24,7 @@ title: Services 🙋🏻‍♂️
 - _TEI 2017_ — Work-in-Progress Chair
 - _IEEE World Haptics 2013_ — Art Chair
 - _HAID 2013_ — Poster Chair
+  _ICXR 2026_ (International Conference on Extended Reality) - XR Gallery Co-Chair
 
 <br>
 
